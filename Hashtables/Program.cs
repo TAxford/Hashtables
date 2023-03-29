@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace Hashtables
 {
@@ -9,6 +10,8 @@ namespace Hashtables
 
         static void Main(string[] args)
         {
+            Hashtable table = new Hashtable();
+
             Console.WriteLine("Hello World!");
         }
     }
