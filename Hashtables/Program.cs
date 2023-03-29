@@ -4,7 +4,7 @@ using System.Collections;
 namespace Hashtables
 {
     internal class Program
-    {   
+    {
         // Key - Value
         // Auto - Car
 
@@ -22,8 +22,10 @@ namespace Hashtables
             studentsTable.Add(stud3.Id, stud3);
             studentsTable.Add(stud4.Id, stud4);
 
+            Student storedStudent1 = (Student)studentsTable[1];
 
-            Console.WriteLine("Hello World!");
+
+            Console.WriteLine("Student ID:{0}, Name:{1}, GPA{2}", storedStudent1.Id, storedStudent1.Name, storedStudent1.GPA);
         }
     }
 
