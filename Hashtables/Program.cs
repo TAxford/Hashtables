@@ -32,13 +32,11 @@ namespace Hashtables
             {
                 Student temp = (Student)entry.Value;
                 Console.WriteLine("Student ID:{0}", temp.Id);
-                Console.WriteLine("Student Name:{1}", temp.Name);
-                Console.WriteLine("Student GPA:{2}", temp.GPA);
+                Console.WriteLine("Student Name:{0}", temp.Name);
+                Console.WriteLine("Student GPA:{0}", temp.GPA);
 
             }
 
-
-            Console.WriteLine("Student ID:{0}, Name:{1}, GPA{2}", storedStudent1.Id, storedStudent1.Name, storedStudent1.GPA);
         }
     }
 
