@@ -28,12 +28,21 @@ namespace Hashtables
             Student storedStudent1 = (Student)studentsTable[1];
 
             //Retreive all values from a Hashtable
-            foreach (DictionaryEntry entry in studentsTable)
+            /*foreach (DictionaryEntry entry in studentsTable)
             {
                 Student temp = (Student)entry.Value;
                 Console.WriteLine("Student ID:{0}", temp.Id);
                 Console.WriteLine("Student Name:{0}", temp.Name);
                 Console.WriteLine("Student GPA:{0}", temp.GPA);
+
+            }*/
+
+            //Simplify the foreach loop
+            foreach (Student value in studentsTable.Values)
+            {
+                Console.WriteLine("Student ID:{0}", value.Id);
+                Console.WriteLine("Student Name:{0}", value.Name);
+                Console.WriteLine("Student GPA:{0}", value.GPA);
 
             }
 
