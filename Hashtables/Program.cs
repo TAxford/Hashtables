@@ -17,6 +17,12 @@ namespace Hashtables
             Student stud3 = new Student(3, "Clara", 43);
             Student stud4 = new Student(4, "Steve", 55);
 
+            studentsTable.Add(stud1.Id, stud1);
+            studentsTable.Add(stud2.Id, stud2);
+            studentsTable.Add(stud3.Id, stud3);
+            studentsTable.Add(stud4.Id, stud4);
+
+
             Console.WriteLine("Hello World!");
         }
     }
